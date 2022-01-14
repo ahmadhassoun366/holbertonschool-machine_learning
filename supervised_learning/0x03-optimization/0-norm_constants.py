@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ 	#!/usr/bin/env python3
 	"""norm_constants Module"""
 	
 	import numpy as np
@@ -9,5 +9,3 @@
 	mean = np.mean(X, axis=0)
 	stdev = np.std(X, axis=0)
 	return mean, stdev
-
-
